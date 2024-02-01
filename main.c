@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 #define MAX_LINE_LENGTH 1024
-bus_t bus = {NULL, NULL, NULL, 0};
 
+bus_t bus = {NULL, NULL, NULL, 0};
 /**
 * main - This is a monty code interpreter
-* @argc: Is the number of arguments
+* @argc: number of arguments
 * @argv: monty file location
 * Return: 0 on success
 */
