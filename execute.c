@@ -15,7 +15,7 @@ int execute(char *content, stack_t **stack, unsigned int counter, FILE *file)
 				{"pop", func_pop}, {"swap", func_swap}, {"add", func_add},
 				{"nop", func_nop}, {"sub", func_sub}, {"div", func_div},
 				{"mul", func_mul}, {"mod", func_mod}, {"pchar", func_pchar},
-				{"pstr", func_pstr}, {"rotl", func_rotl}, {"rotr", func_rotr},
+				{"pstr", func_pstr}, {"rotl", func_rotl}, {"rotr", fn_rotr},
 				{"queue", func_queue}, {"stack", func_stack},
 				{NULL, NULL}
 				};
