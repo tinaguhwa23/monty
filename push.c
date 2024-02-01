@@ -1,12 +1,12 @@
 #include "monty.h"
 
 /**
- * func_push - ...
+ * fn_push - ...
  * @head: This is the stack's head
  * @line_number: line_number
  * Return: nothing
 */
-void func_push(stack_t **head, unsigned int line_number)
+void fn_push(stack_t **head, unsigned int line_number)
 {
 	int n, j = 0, flag = 0;
 
